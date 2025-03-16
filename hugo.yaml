@@ -5,11 +5,9 @@ languages:
         params:
             themes:
                 event:
-                    slogan: A Hugo Theme for Conferences
+                    slogan: Who is Wits-HPC
                     description: |
-                        This is a placeholder for your event description. You can customize it,
-                        together with all other settings, in your Hugo configuration file.
-                        We hope you enjoy using this theme! 🎉
+                        Some information of Wits-HPC
                     directions: |
                         Directions for getting to the location using public transportation. 
                         Customize this placeholder text in your Hugo configuration file or remove it if not needed.
@@ -46,15 +44,15 @@ params:
             # 👇 Fetch the ID of your event's API endpoint from
             # 👇 https://sessionize.com/app/organizer/schedule/api/0
             # 👇 and enter it here.
-            sessionizeId:
+            sessionizeId: 5t9qq5ux
             title: Your Event Title
             # 👇 An optional short version of your event's title. Only use it if
             # 👇 your event title is very long. The short title may be used in
             # 👇 places where space is limited, such as on mobile devices or in the header menu.
-            shortTitle:
-            startDate: 2026-06-01
-            endDate: 2026-06-03
-            location: City, Country
+            shortTitle: 
+            startDate: 2025-05-10
+            endDate: 2025-05-14
+            location: Xining, China
             address:
                 - Building
                 - Street
@@ -66,7 +64,7 @@ params:
                 # 👇 or Google Maps
                 # 👇 https://developers.google.com/maps/documentation/embed/embedding-map
                 # 👇 and enter it here.
-                embeddableMapUrl:
+                embeddableMapUrl: 
                 # 👇 Enter a URL of a larger map representation (not required for Google Maps).
                 viewLargerMapUrl:
             callToAction:
@@ -77,7 +75,7 @@ params:
                 other:
                     # 👇 Enter the URL of your ticket shop here.
                     url:
-                enableBanner: true
+                enableBanner: false
             socialLinks:
                 xUrl:
                 facebookUrl:
